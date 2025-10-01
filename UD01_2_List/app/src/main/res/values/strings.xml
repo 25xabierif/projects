@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UD01_2_List</string>
+    <string name="buscar">Buscar</string>
+    <string name="selecciona_animal">Selecciona un tipo de animal</string>
+    <string-array name="animal_list">
+        <item>Gato</item>
+        <item>Can</item>
+        <item>Paxaro</item>
+    </string-array>
+</resources>

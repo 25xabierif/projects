@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FragmentosNavegacion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_bienvenido">Bienvenida!</string>
+    <string name="start">Start</string>
+    <string name="segundo_fragmento">Segundo fragmento!</string>
+    <string name="sec_button">Botón2</string>
+    <string name="fragmento_final">Ultimo!</string>
+    <string name="third_button">Botón3</string>
+</resources>
