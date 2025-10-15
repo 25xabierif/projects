@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tarefa2_Titulo</string>
+    <string name="topImg">Imagen arriba</string>
+    <string name="tigre">tigre</string>
+    <string name="leoDesc">Imaxe de Leoncio</string>
+    <string name="tigerDesc">Imaxe de tigre</string>
+</resources>

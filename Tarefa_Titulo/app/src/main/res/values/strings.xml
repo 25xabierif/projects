@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tarefa_Titulo</string>
+    <string name="xerar_titulo">Xerar novo título</string>
+    <string name="campoTexto">Aquí se xerará o título</string>
+</resources>
