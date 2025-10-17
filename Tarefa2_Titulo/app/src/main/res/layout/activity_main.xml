@@ -3,27 +3,31 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/main">
+    android:id="@+id/main"
+    android:background="#7B1FA2">
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|top">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/topImg"
-            android:src="@drawable/leoncio"
-            android:contentDescription="@string/leoDesc"/>
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/topImg"
+            android:src="@drawable/leoncio"
+            android:scaleType="centerCrop"
+            android:background="#7B1FA2"
+            android:contentDescription="@string/leoDesc"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/textTopImg"
             android:text="@string/topImg"
             android:layout_gravity="center_vertical|center_horizontal"
-            android:textSize="20dp"
-            android:textColor="@color/red"/>
+            android:textSize="40sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"/>
 
     </FrameLayout>
 
@@ -38,6 +42,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tigre"
             android:src="@drawable/tigre"
+            android:background="#7B1FA2"
             android:contentDescription="@string/tigerDesc"/>
         <TextView
             android:layout_width="match_parent"
@@ -45,8 +50,9 @@
             android:id="@+id/textTigre"
             android:text="@string/tigre"
             android:layout_gravity="center_horizontal|center_vertical"
-            android:textSize="20dp"
-            android:textColor="@color/red"/>
+            android:textSize="40sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"/>
     </FrameLayout>
 
 </FrameLayout>

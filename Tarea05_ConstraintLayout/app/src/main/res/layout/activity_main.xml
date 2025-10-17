@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity"
+    android:background="#f7f5f5">
+
+    <ImageView
+        android:id="@+id/android_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/android_Logo"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore=",MissingConstraints"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:textSize="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/android_logo"
+        android:id="@+id/user"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/user"
+        android:id="@+id/passW"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/botonLogin"
+        app:layout_constraintTop_toBottomOf="@+id/passW"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoPrueba"
+        android:text="@string/textoPrueba"
+        android:textSize="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/botonLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
