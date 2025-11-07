@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inboxFragment2">
+    <fragment
+        android:id="@+id/inboxFragment2"
+        android:name="com.example.catchat.InboxFragment"
+        android:label="InboxFragment" />
+    <fragment
+        android:id="@+id/helpFragment3"
+        android:name="com.example.catchat.HelpFragment"
+        android:label="HelpFragment" />
+</navigation>

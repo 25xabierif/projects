@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/insertName">
+
+    <fragment
+        android:id="@+id/insertName"
+        android:name="com.example.halloween.InsertName"
+        android:label="fragment_insert_name"
+        tools:layout="@layout/fragment_insert_name" >
+        <action
+            android:id="@+id/action_nameFragment_to_storyFragment"
+            app:destination="@id/storyFragment" />
+        <argument
+            android:name="userName"
+            app:argType="string"/>
+        <action/>
+    </fragment>
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.example.halloween.StoryFragment"
+        android:label="fragment_story"
+        tools:layout="@layout/fragment_story">
+    </fragment>
+    <fragment
+        android:id="@+id/themeFragment"
+        android:name="com.example.halloween.themeFragment"
+        android:label="fragment_theme"
+        tools:layout="@layout/fragment_theme" >
+        <action
+            android:id="@+id/action_themeFragment_to_storyFragment"
+            app:destination="@id/storyFragment" />
+    </fragment>
+</navigation>
