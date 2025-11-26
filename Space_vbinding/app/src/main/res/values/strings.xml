@@ -3,4 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="text_mercurio">Mercurio es el planeta más cercano al Sol y el más pequeño del Sistema Solar.</string>
+    <string name="text_venus">Venus es el segundo planeta más cercano al Sol, un mundo rocoso con un tamaño similar al de la Tierra, pero es el planeta más caliente del sistema solar debido a su densa atmósfera de dióxido de carbono, que crea un efecto invernadero extremo.</string>
+    <string name="text_marte">Marte, el cuarto planeta del Sistema Solar, es un planeta rocoso y desértico conocido como el "planeta rojo" debido al óxido de hierro en su superficie.</string>
+    <string name="text_tierra">La Tierra es el tercer planeta desde el Sol, el quinto más grande del sistema solar y el más grande de los planetas rocosos.</string>
 </resources>
