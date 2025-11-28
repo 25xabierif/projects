@@ -6,4 +6,10 @@
     <string name="text_venus">Venus es el segundo planeta más cercano al Sol, un mundo rocoso con un tamaño similar al de la Tierra, pero es el planeta más caliente del sistema solar debido a su densa atmósfera de dióxido de carbono, que crea un efecto invernadero extremo.</string>
     <string name="text_marte">Marte, el cuarto planeta del Sistema Solar, es un planeta rocoso y desértico conocido como el "planeta rojo" debido al óxido de hierro en su superficie.</string>
     <string name="text_tierra">La Tierra es el tercer planeta desde el Sol, el quinto más grande del sistema solar y el más grande de los planetas rocosos.</string>
+    <string name="cassio_img_alt">Imaxe da constelación cassiopeia</string>
+    <string name="cassio_info">Casiopea es una constelación boreal del hemisferio norte, fácilmente reconocible por su forma de \'W\' o \'M\' formada por cinco estrellas brillantes.</string>
+    <string name="orion_img_alt">Imagen de la constelación Orión</string>
+    <string name="orion_info">La constelación de Orión es una de las más conocidas y brillantes del cielo nocturno, visible desde ambos hemisferios.</string>
+    <string name="perseo_img_alt">Imagen de la constelación Perseo</string>
+    <string name="perseo_info">Perseo es una constelación del hemisferio norte, famosa por albergar la lluvia de meteoros de las Perseidas y la estrella variable Algol (β Persei), conocida como el ojo de Medusa.</string>
 </resources>
