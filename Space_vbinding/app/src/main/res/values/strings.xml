@@ -12,4 +12,6 @@
     <string name="orion_info">La constelación de Orión es una de las más conocidas y brillantes del cielo nocturno, visible desde ambos hemisferios.</string>
     <string name="perseo_img_alt">Imagen de la constelación Perseo</string>
     <string name="perseo_info">Perseo es una constelación del hemisferio norte, famosa por albergar la lluvia de meteoros de las Perseidas y la estrella variable Algol (β Persei), conocida como el ojo de Medusa.</string>
+    <string name="leyendas_btn">Leyendas y mitología</string>
+    <string name="observation_tips">Tips para observación</string>
 </resources>
