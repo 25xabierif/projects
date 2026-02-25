@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">hamburgueseria</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="engadir_button_text">Engadir á conta</string>
+    <string name="usuario_hint">Nome de usuario...</string>
+    <string name="complete_b">Completa 6,5€</string>
+    <string name="vegan_b">Vegana 7€</string>
+    <string name="egg_b">Con ovo 7,5€</string>
+    <string name="auga_p">Auga 1,5€</string>
+    <string name="refresco_p">Refresco 2€</string>
+    <string name="pedido_menu">Pedido</string>
+    <string name="resumo_menu">Resumo</string>
+</resources>

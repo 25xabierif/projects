@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment"
+    android:background="@color/general_background">
+
+    <EditText
+        android:id="@+id/editConcepto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="@string/concept_hint"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editCantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="@string/cantidade_hint"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnGardar"
+        android:text="@string/text_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:backgroundTint="@color/blue_fab"
+        android:textColor="@color/white"/>
+</LinearLayout>

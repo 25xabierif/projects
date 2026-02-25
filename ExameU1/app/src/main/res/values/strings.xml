@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Exame</string>
+    <string name="text_save">Gardar</string>
+    <string name="concept_hint">Concepto...</string>
+    <string name="cantidade_hint">Cantidade...</string>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PedidoFragment"
+    android:background="@color/lila_claro"
+    android:id="@+id/pedidoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_add"
+        android:id="@+id/scroll_burgers">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="16dp"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/usuario_hint"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:inputType="text"
+                    android:textSize="26sp"
+                    android:textAlignment="center"
+                    android:autofillHints="name"
+                    android:id="@+id/userName"
+                    android:textColor="@color/rosita"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:singleSelection="true"
+                android:id="@+id/burgerChip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:text="@string/complete_b"
+                        android:id="@+id/completa"
+                        android:textAlignment="center"
+                        android:textSize="16sp"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:text="@string/vegan_b"
+                        android:textAlignment="center"
+                        android:id="@+id/vegana"
+                        android:textSize="16sp"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:text="@string/egg_b"
+                        android:id="@+id/ovo"
+                        android:textAlignment="center"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:singleSelection="true"
+                android:id="@+id/drink_chip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="250dp"
+                        android:layout_height="70dp"
+                        android:text="@string/auga_p"
+                        android:textAlignment="center"
+                        android:id="@+id/auga"
+                        android:textSize="16sp"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="250dp"
+                        android:layout_height="70dp"
+                        android:text="@string/refresco_p"
+                        android:textAlignment="center"
+                        android:id="@+id/refresco"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.chip.ChipGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/scroll_burgers"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp"
+        android:id="@+id/button_add"
+        android:text="@string/engadir_button_text"
+        android:layout_marginTop="16dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
