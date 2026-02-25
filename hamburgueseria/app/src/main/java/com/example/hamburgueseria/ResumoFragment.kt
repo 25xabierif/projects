@@ -7,8 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import com.example.hamburgueseria.databinding.FragmentResumoBinding
-import androidx.navigation.fragment.findNavController
-import com.example.hamburgueseria.OrderViewModel
 
 
 class ResumoFragment : Fragment() {
@@ -30,7 +28,7 @@ class ResumoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val args = ResumoFragmentArgs.fromBundle(requireArguments())
-        binding.resumoUsername.text = args.username
+        binding.resumoUsername.text = args.userName
 
         model.total.observe(viewLifecycleOwner){
             binding.resumoTotal.text = "Total: $it €"

@@ -30,6 +30,7 @@ class PedidoFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.buttonAdd.setOnClickListener {
+            var total = 0.0
             val name = binding.userName.text.toString()
             when (binding.burgerChip.checkedChipId) {
                 R.id.completa -> total += 7

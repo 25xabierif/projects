@@ -24,7 +24,7 @@
         android:label="fragment_resumo"
         tools:layout="@layout/fragment_resumo" >
         <argument
-            android:name="Username"
+            android:name="userName"
             app:argType="string"
             android:defaultValue="User" />
         <action
