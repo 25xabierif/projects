@@ -31,91 +31,82 @@
                 android:layout_gravity="center">
 
                 <EditText
+                    android:id="@+id/userName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/usuario_hint"
-                    android:gravity="center_horizontal"
                     android:layout_gravity="center_horizontal"
-                    android:inputType="text"
-                    android:textSize="26sp"
-                    android:textAlignment="center"
                     android:autofillHints="name"
-                    android:id="@+id/userName"
-                    android:textColor="@color/rosita"/>
+                    android:gravity="center_horizontal"
+                    android:hint="@string/usuario_hint"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColor="@color/rosita"
+                    android:textSize="26sp" />
 
             </androidx.cardview.widget.CardView>
 
             <com.google.android.material.chip.ChipGroup
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 app:singleSelection="true"
-                android:id="@+id/burgerChip">
+                android:id="@+id/burgerChip"
+                android:gravity="center_horizontal">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                <com.google.android.material.chip.Chip
+                    android:layout_width="250dp"
+                    android:layout_height="100dp"
+                    android:text="@string/complete_b"
+                    android:id="@+id/completa"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
 
-                    <com.google.android.material.chip.Chip
-                        android:layout_width="250dp"
-                        android:layout_height="100dp"
-                        android:text="@string/complete_b"
-                        android:id="@+id/completa"
-                        android:textAlignment="center"
-                        android:textSize="16sp"/>
+                <com.google.android.material.chip.Chip
+                    android:layout_width="250dp"
+                    android:layout_height="100dp"
+                    android:text="@string/vegan_b"
+                    android:textAlignment="center"
+                    android:id="@+id/vegana"
+                    android:textSize="16sp"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
 
-                    <com.google.android.material.chip.Chip
-                        android:layout_width="250dp"
-                        android:layout_height="100dp"
-                        android:text="@string/vegan_b"
-                        android:textAlignment="center"
-                        android:id="@+id/vegana"
-                        android:textSize="16sp"/>
-
-                    <com.google.android.material.chip.Chip
-                        android:layout_width="250dp"
-                        android:layout_height="100dp"
-                        android:text="@string/egg_b"
-                        android:id="@+id/ovo"
-                        android:textAlignment="center"
-                        android:textSize="16sp"/>
-
-                </LinearLayout>
+                <com.google.android.material.chip.Chip
+                    android:layout_width="250dp"
+                    android:layout_height="100dp"
+                    android:text="@string/egg_b"
+                    android:id="@+id/ovo"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
 
             </com.google.android.material.chip.ChipGroup>
 
             <com.google.android.material.chip.ChipGroup
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 app:singleSelection="true"
-                android:id="@+id/drink_chip">
+                android:id="@+id/drinkChip"
+                android:gravity="center_horizontal">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                <com.google.android.material.chip.Chip
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:text="@string/auga_p"
+                    android:textAlignment="center"
+                    android:id="@+id/auga"
+                    android:textSize="16sp"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
 
-                    <com.google.android.material.chip.Chip
-                        android:layout_width="250dp"
-                        android:layout_height="70dp"
-                        android:text="@string/auga_p"
-                        android:textAlignment="center"
-                        android:id="@+id/auga"
-                        android:textSize="16sp"/>
-
-                    <com.google.android.material.chip.Chip
-                        android:layout_width="250dp"
-                        android:layout_height="70dp"
-                        android:text="@string/refresco_p"
-                        android:textAlignment="center"
-                        android:id="@+id/refresco"
-                        android:textSize="16sp"/>
-
-                </LinearLayout>
+                <com.google.android.material.chip.Chip
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:text="@string/refresco_p"
+                    android:textAlignment="center"
+                    android:id="@+id/refresco"
+                    android:textSize="16sp"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
 
             </com.google.android.material.chip.ChipGroup>
 

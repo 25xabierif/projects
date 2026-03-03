@@ -29,6 +29,12 @@ class PedidoFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        //Observamos o nome no pedido fragment
+        model.name.observe(viewLifecycleOwner){
+            binding.userName.setText(it)
+        }
+
         binding.buttonAdd.setOnClickListener {
             var total = 0.0
             val name = binding.userName.text.toString()
@@ -41,7 +47,7 @@ class PedidoFragment : Fragment() {
                 R.id.auga -> total += 1.5
                 R.id.refresco -> total += 2
             }
-            model.addOrder(total)
+            model.addOrder(total, userName = name)
             Snackbar.make(binding.root,"Pedido engadido!", Snackbar.LENGTH_SHORT).show()
             view.findNavController().navigate(
                 directions = PedidoFragmentDirections.actionPedidoFragmentToResumoFragment(
